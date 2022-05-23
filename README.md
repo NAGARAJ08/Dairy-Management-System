@@ -28,20 +28,23 @@ startpage.php is the homepage .
 </br>
 ----------------------------------------------------------------------------------------------------------------------------------------
 ```bash
-The Services has different links to the above mentioned modules which can be accessed from the services page.
+The Services has different links to the above mentioned modules which 
+can be accessed from the services page.
 ```
 ![services page](Screen_shots/services.png)
 </br>
 ----------------------------------------------------------------------------------------------------------------------------------------
 ```bash
-Farmer module Page is where the data of the new farmer and old farmer can be managed like can be added or deleted.
+Farmer module Page is where the data of the new farmer and old farmer 
+can be managed like can be added or deleted.
 ```
 ![](Screen_shots/Farmer.png)
 </br>
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 ```bash
-Farmer module Page is where the data of the new farmer and old farmer can be managed like can be added or deleted.
+Farmer module Page is where the data of the new farmer and old farmer can be 
+managed like can be added or deleted.
 ```
 ![](Screen_shots/farmer-1.png)
 </br>
