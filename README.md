@@ -66,21 +66,21 @@ min_litres of milk/day,Animal health ID can be accessed easily.
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 ```bash
-Daily Data entry is where the registerd farmers sell their milk to the dairy on daily basis.
+Daily Data entry Module is where the registerd farmers sell their milk to the dairy on daily basis.
 ```
 ![](Screen_shots/Daily_Data.png)
 </br>
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 ```bash
-Dairy Products is the products like Milk,Ghee,Butter e.t.c sold to the customers of the dairy.
+Dairy Products module is the products like Milk,Ghee,Butter e.t.c sold to the customers of the dairy.
 ```
 ![](Screen_shots/products.png)
 </br>
 
 --------------------------------------------------------------------------------------------------------------------------------------
 ```bash
-Bill is where the farmers can collect their bill from date to the to date.
+Billing module is where the farmers can collect their bill from date to the to date.
 ```
 ![](Screen_shots/Bill.png)
 ![](Screen_shots/Bill-1.png)
