@@ -1,0 +1,118 @@
+
+<html>
+<head>
+  <link rel="stylesheet" href="css/all.css">
+<style>
+.header {
+  position: fixed;
+  right:0;
+  top: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+/* Header styling   */
+.LOGO{
+  height: 100px;
+  width: auto;
+  float: left;
+  margin-left: 30px;
+}
+
+.list{
+  float: right;
+  margin-right: 40px;
+}
+
+
+.list li{
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+.list li a{
+  text-decoration: none;
+  font-size: 20px;
+  color:white;
+  font-family: serif;
+  font-weight: bold;
+}
+
+.list li:hover{
+  border-bottom: 4px solid yellow;
+  transition: .3s;
+}
+		.main-box{width:auto;
+		margin-top:150px;
+		}
+	.heading{top:12%;
+		color:black;
+	font-size:35px;
+	text-align:center;
+	position:relative;
+	letter-spacing:3px;
+	line-height:10px
+	}
+.check
+{	font-size:30px;
+	position:relative;
+	margin-top:150px;
+
+	font-family:Brushscriptm7,cursive;
+
+}
+.check h4{
+text-align:center
+}
+.check p{
+margin-left:10px;
+color:green;
+}
+.farm{
+  display:inline-flex;
+  padding:10px;
+  font-size:20px;
+  font-family:aerial;
+  border:2px solid green;
+  background-color:black;
+  color:yellow;
+  border-radius:5px;
+  margin-left:20px;
+  padding:10px;
+  letter-spacing:1px;
+
+}
+.align{
+position:absolute;
+left:40%;
+}
+.adjust{
+
+display:inline-flex;
+}
+
+</style>
+</head>
+<body>
+	<div class="header">
+      <a href="startpage.php">  <img src="images/NATURE-ONE-DAIRY-CORPORATE-LOGO-01.png"  alt="logo" class="LOGO"></a>
+
+      <ul class="list">
+        <li> <a href="startpage.php" class="effect"><i class="fas fa-home"></i> HOME</a> </li>
+        <li> <a href="Service.php" class="effect"><i class="fas fa-dolly-flatbed"></i> SERVICES</a> </li>
+        <li> <a href="aboutus.html" class="effect"><i class="fas fa-info-circle"></i> ABOUT US</a> </li>
+      </ul>
+    </div>
+	<div class="check">
+	<h4> welcome to the bill generation ...portal...</h4>
+	<div class="align">
+	<p>Bill generaration for</p>
+	<form  class="adjust" action="farmerbill.php" ><button class="farm" >farmer</button></form>
+
+	</div>
+	</div>
+</body>
+</html>

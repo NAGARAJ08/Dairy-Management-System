@@ -1,0 +1,183 @@
+
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>login form.com</title>
+    <link rel="stylesheet" href="project/Dairystyle.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/all.css">
+
+<!--Documnet styling only for this home page for the text in the page-->
+    <style media="screen">
+
+    .main-content-one{
+      width: 1180;
+      position: absolute;
+      top: 24%;
+      margin-left: 10px;
+      margin-right: 10px;}
+
+form {
+  border: 4px double black;
+  width: 600px;
+  margin-top: -50px;
+  background-color:lightgreen;
+  margin-left:350px;
+  opacity:0.8;
+  color: Black;
+}
+
+input[type=text], input[type=password] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 20px;
+  border-radius: 15px;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  border-radius:15px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  height: 100px;
+  width: auto;
+  border-radius: 50%;
+
+}
+.sub{
+  margin-left: 80px;
+}
+.container {
+font-size:15px;
+  padding: 16px;
+  margin-left:50px;
+  width:auto;
+
+}
+
+span.psw {
+    margin-left: 200px;
+  padding-top: 16px;
+}
+
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+.LOGO{
+  height: 120px;
+  width: auto;
+  margin-left: 3px;
+  float: left;
+  border-radius:10px;
+  opacity:0.7;
+}
+.main-content-one p{
+text-align:center;
+font-size:30px;
+color:black;
+font-family:copperplate;}
+.back{
+margin-left:500px;
+color:yellow;
+font-size:25px;
+ }
+ .effect{
+ color:white;}
+
+body{
+  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('images/mainimg.jpeg');
+  background-attachment: fixed;
+  color:yellow;
+    height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.copyright {
+    left: 30%;
+    position: absolute;
+    margin-top: 40%;
+    color: aquamarine;
+}
+
+</style>
+  </head>
+
+
+  <body>
+    <!--header is for the logo and the menu in header-->
+    <header class="main-head">
+      <nav class="main-nav">
+        <div class="main-div clearfix">
+        <a href="startpage.php">  <img src="images/NATURE-ONE-DAIRY-CORPORATE-LOGO-01.png"  alt="logo" class="LOGO"></a>
+		</div>
+
+    </nav>
+
+  </header>
+  <!--This main-content-one contains some information regrading the DAIRY-->
+    <div class="main-content-one">
+
+	  <form action="login.php" method="post">
+      <p>LOGIN FORM</p>
+        <div class="imgcontainer">
+          <img src="images/login.jpg" alt="Avatar" class="avatar">
+        </div>
+
+        <div class="container">
+          <label for="uname"><b><i class="fas fa-user-alt"></i> Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+          <br>
+          <label for="psw"><b><i class="fas fa-key"></i> Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+
+          <button type="submit" name="data" class="sub"opacity="0.6">Login</button>
+
+        </div>
+
+        <div class="container" style="background-color:lightgreen">
+        <a href="startpage.php">  <button type="button" class="cancelbtn">Cancel</button> </a>
+
+        </div>
+      </form>
+
+</div>
+     <h3 class="copyright">&copy DAIRY.com 2021 <sub>All Rigths Reserved</sub> </h3>
+
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+*{
+  box-sizing: border-box;
+  margin:0px;
+  padding: 0px;
+}
+
+body{
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../IMAGES/Cows-in-the-field-215859100.jpg');
+  background-attachment: fixed;
+  color: white;
+    height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.clearfix:after{
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0px;
+  clear: both;
+}
+.LOGO{
+  height: 120px;
+  width: auto;
+  margin-left: 3px;
+  float: left;
+  position: fixed;
+}
+
+.list {
+  float: right;
+  margin-top: 40px;
+  margin-right: 20px;
+
+}
+
+.list li{
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.list li a{
+  text-decoration: none;
+  font-size: 20px;
+  color:white;
+  font-family: serif;
+  font-weight: bold;
+}
+
+.list li:hover{
+  border-bottom: 4px solid yellow;
+  transition: .3s;
+
+
+}

@@ -1,0 +1,152 @@
+<?php
+ require_once "connection.php"?>
+<html>
+<head>
+<script type = "text/javascript"  src ="hide.js"></script>
+<style>
+.header {
+  position: fixed;
+  right:0;
+  top: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+/* Header styling   */
+.LOGO{
+  height: 100px;
+  width: auto;
+  float: left;
+  margin-left: 30px;
+}
+
+.list{
+  float: right;
+  margin-right: 40px;
+}
+
+
+.list li{
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+.list li a{
+  text-decoration: none;
+  font-size: 20px;
+  color:white;
+  font-family: serif;
+  font-weight: bold;
+}
+
+.list li:hover{
+  border-bottom: 4px solid yellow;
+  transition: .3s;
+}
+		.main-box{width:auto;
+		margin-top:150px;	
+		}
+	.heading{top:12%;
+		color:black;
+	font-size:35px;
+	text-align:center;
+	position:relative;
+	letter-spacing:3px;
+	line-height:10px
+	}
+.main-box{
+margin-left:50px;
+}
+.bill label{
+padding:10px;
+margin-top:10px;
+font-size:25px;
+font-family:cursive;
+line-height:40px;
+
+}
+.bill input{
+font-size:15px;
+line-height:20px;
+padding:10px;
+margin-top:25px;}
+ #receipt table{
+ text-visibility:hidden;
+ margin-left:40%;
+ line-height: 40px;
+    font-size: 30px;
+    border-collapse: collapse;
+    font-family: system-ui;}
+    .submit{
+    font-size:15px;
+line-height:20px;
+padding:10px;
+margin-top:25px;}
+</style>
+</head>
+<body>
+	-Header-->
+    <div class="header">
+      <a href="startpage.php">  <img src="images/logo.jpeg"  alt="logo" class="LOGO"></a>
+	    
+      <ul class="list">
+        <li> <a href="startpage.php" class="effect">HOME</a> </li>
+
+        <li> <a href="#" class="effect">ABOUT US</a> </li>
+      </ul>
+    </div>
+	<h3 class="heading">Bill generation </h3>
+	<div class="main-box">
+	
+		<form class="bill"  action=""  method="POST">
+			 <label for="fid">farmer id: </label>
+                <input type="text" name="fid" value=""placeholder="enter farmer id"/>
+				<br>
+				<label>  from-date:</label>
+				<input type="date" name="from-date"/>
+				
+				 <label>to-date</label>
+				<input type="date" name="to-date"/> 
+				
+               <br>
+			   <input type = "submit" class="submit" name="billinfo" value = "submit" />
+			   <hr>
+			   
+			  
+        </form>
+       </div>
+	   <?php
+require_once "connection.php";
+	if(isset($_POST['billinfo']))
+	{$fid=$_POST['fid'];
+	 $frmdate=$_POST['from-date'];
+	 $todate=$_POST['to-date'];
+	
+	$sql="SELECT id,fname,milk_type from farmer where id='$fid'";
+	$query_run=mysqli_query($conn,$sql);
+	
+	
+	
+	if($query_run)
+	{
+		foreach($query_run as $row)
+		{
+		   echo "farmer id:".$row['id'];
+		   echo "farmer name:".$row['fname'];
+		   echo "milk_type:".$row['milk_type'];
+		   
+		
+		 
+		}
+	}
+	else{
+		echo "record not found";
+	}
+	
+	}?>
+	   
+</body>
+</html>

@@ -1,0 +1,110 @@
+.header {
+  position: fixed;
+  right:0;
+  top: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+/* Header styling   */
+.LOGO{
+  height: 100px;
+  width: auto;
+  float: left;
+  margin-left: 30px;
+}
+
+.list{
+  float: right;
+  margin-right: 40px;
+}
+
+
+.list li{
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+.list li a{
+  text-decoration: none;
+  font-size: 20px;
+  color:white;
+  font-family: serif;
+  font-weight: bold;
+}
+
+.list li:hover{
+  border-bottom: 4px solid yellow;
+  transition: .3s;
+}
+
+/*body*/
+
+div.main-body{
+  margin-top: 100px;
+
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 30%;
+  padding: 20px 12px;
+
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+
+  margin-left: 60px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#t1{
+  font-size: 30px;
+  color: black;
+
+}
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 6px;
+  text-align: center;
+  background-color: #f1f1f1;
+  border: 2px solid black;
+}
+
+.card:hover{
+  opacity:0.5;
+  transition: 0.3s;
+}
+
+
+
+/*Footer*/
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color:white;
+  text-align: center;
+}
