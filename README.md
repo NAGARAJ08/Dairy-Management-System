@@ -11,13 +11,13 @@ This is a DBMS Miniproject named Dairy_Management_System.
 
 ## Description
 This project contains different Modules like, 
-->Login module. 
--> Farmer Details Module. 
--> Staff Details Module. 
--> Dairy Animal Details . 
-->Daily Data entry Module. 
-->Bill Module . 
-->Dairy Products Module .
+- Login module.
+- Farmer Details Module. 
+- Staff Details Module. 
+- Dairy Animal Details . 
+- Daily Data entry Module. 
+- Bill Module . 
+- Dairy Products Module .
 
 It Contains a Home page which has quick links to Home, Services,Gallery,About Dairy.
 ----------------------------------------------------------------------------------------------------------------------------------------
