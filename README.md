@@ -90,8 +90,4 @@ Billing module is where the farmers can collect their bill from date to the to d
 
 
 
-## COPY RIGHTS CLAIMS
-The images used in the project belong to their respective creators/authors.
-No claim by me & those who use this project.
-
 
