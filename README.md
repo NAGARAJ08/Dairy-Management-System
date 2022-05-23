@@ -1,6 +1,7 @@
 
 # Dairy-Manangement-System
 This is a DBMS Miniproject named Dairy_Management_System.
+
 ## Languages Used
 
 **FrontEnd:** Html, CSS, Bootstrap.
@@ -19,10 +20,11 @@ This project contains different Modules like,
 ->Dairy Products Module .
 
 It Contains a Home page which has quick links to Home, Services,Gallery,About Dairy.
-
+----------------------------------------------------------------------------------------------------------------------------------------
 ### startpage.php is the homepage . ###
 ![Home Page](Screen_shots/startpage.png)
-
+</br>
+----------------------------------------------------------------------------------------------------------------------------------------
 ### The Services has different links to the above mentioned modules which can be accessed from the services page. ###
 ![services page](Screen_shots/services.png)
 
@@ -46,7 +48,11 @@ It Contains a Home page which has quick links to Home, Services,Gallery,About Da
 ### Dairy Products is the products like Milk,Ghee,Butter e.t.c sold to the customers of the dairy. ###
 ![](Screen_shots/products.png)
 
-### Bill is where the farmers can collect their bill from date to the to date.###
+
+```bash
+Bill is where the farmers can collect their bill from date to the to date.
+```
+
 ![](Screen_shots/Bill.png)
 ![](Screen_shots/Bill-1.png)
 
